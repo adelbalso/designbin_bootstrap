@@ -6649,42 +6649,57 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /* line 9, ../sass/base.css.scss */
 body {
   font-family: "Lato", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  background: #FDFEFE;
   padding-top: 100px;
+  -webkit-font-smoothing: antialiased;
 }
 
-/* line 14, ../sass/base.css.scss */
+/* line 16, ../sass/base.css.scss */
 .navbar-inner {
   font-family: 'Cutive Mono';
   background-image: none;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.9);
   height: 100px;
   border-bottom: none;
 }
-/* line 20, ../sass/base.css.scss */
+/* line 22, ../sass/base.css.scss */
 .navbar-inner li {
   display: inline;
 }
-/* line 22, ../sass/base.css.scss */
+/* line 24, ../sass/base.css.scss */
 .navbar-inner li #nav-blog, .navbar-inner li #twitter, .navbar-inner li #email {
   position: relative;
   float: right;
 }
 
-/* line 29, ../sass/base.css.scss */
-.content-box {
+/* line 31, ../sass/base.css.scss */
+.box-style {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   -ms-border-radius: 3px;
   -o-border-radius: 3px;
   border-radius: 3px;
-  z-index: 1;
   color: #fff;
   font-weight: 400;
   font-size: 20px;
-  padding: 50px;
-  margin: 30px 200px;
   min-height: 300px;
-  min-width: 200px;
-  position: relative;
-  top: 100px;
+  margin-top: 30px;
+}
+/* line 39, ../sass/base.css.scss */
+.box-style.box1 {
+  color: #fff;
+  background-color: #96dcc7;
+}
+/* line 44, ../sass/base.css.scss */
+.box-style.box2 {
+  background-color: #f2f2ea;
+  color: #808080;
+}
+
+/* line 50, ../sass/base.css.scss */
+#footer {
+  color: #aaa;
+  font-family: "Cutive Mono", "Lato", "Helvetica", "Arial", sans-serif;
+  font-size: 15px;
+  text-align: center;
 }

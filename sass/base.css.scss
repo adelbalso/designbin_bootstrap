@@ -8,13 +8,15 @@ $secondary_color: #f2f2ea;
 
 body {
 	font-family: 'Lato', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+	background: #FDFEFE;
 	padding-top: 100px;
+	-webkit-font-smoothing: antialiased;
 }
 
 .navbar-inner {
 	font-family: 'Cutive Mono';
 	background-image: none;
-	background-color: rgba(#fff, .8);
+	background-color: rgba(#fff, .9);
 	height: 100px;
 	border-bottom: none;
 	li {
@@ -26,21 +28,28 @@ body {
 	}
 }
 
-.content-box {
+.box-style {
 	@include border-radius(3px);
-	z-index: 1;
 	color: #fff;
 	font-weight: 400;
 	font-size: 20px;
-	padding: 50px;
-	margin: 30px 200px;
 	min-height: 300px;
-	min-width: 200px;
-	position: relative;
-	top: 100px;
+	margin-top: 30px;
 
 	&.box1 {
-		// color: #fff;
-		// background-color: $primary_color;
+		color: #fff;
+		background-color: $primary_color;
 	}
+
+	&.box2 {
+		background-color: $secondary_color;
+		color: #808080;
+	}
+}
+
+#footer {
+	color: #aaa;
+	font-family: 'Cutive Mono','Lato', 'Helvetica', 'Arial', sans-serif;
+	font-size: 15px;
+	text-align: center;
 }
