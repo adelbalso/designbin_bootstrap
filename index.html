@@ -5,45 +5,57 @@
 	<meta charset="UTF-8">
 	<title>'s portfolio</title>
 	<link rel="stylesheet" href='//fonts.googleapis.com/css?family=Lato|Cutive+Mono|Istok+Web' type='text/css'>
+	<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
 	<link rel="stylesheet" href="stylesheets/base.css" type="text/css">
-	<link rel="stylesheet" href="stylesheets/lightbox.css" />
 	<script src="js/jquery-1.7.2.min.js"></script>
 	<script src="js/lightbox.js"></script>
   	<link rel="icon" type="image/png" href="images/favicon.png">
 </head>
 
 <body class="index">
-	<div class="navbar">
-	  	<ul class="navbar_elements">
-	  		<li class="brand"><img src='images/adb.png'></li>
-	  		<li><a id="#">Home</a></li>
-	  		<li><a id="#">About</a></li>
-	  		<li><a id="#">Portfolio</a></li>
-	  		<li>
-	  			<a href="https://twitter.com/a_delbalso"><img id="twitter" src="images/icons/twitter.png" /></a>
-	  			<a href="mailto:a.delbalso@gmail.com"><img id="email" src="images/icons/email.png" /></a>
-	  		</li>
-	  		<li><a href="pages/blog.html" id="blog">Blog</a></li>
-	  	</ul>
+
+	<div class="navbar navbar-fixed-top">
+		<div class="navbar-inner">
+			<div class="container">
+			  	<ul class="row nav">
+			  		<li class="span2 brand"><img src='images/adb.png'></li>
+			  		<li class="span1"><a id="#">Home</a></li>
+			  		<li class="span1"><a id="#">About</a></li>
+			  		<li class="span1"><a id="#">Portfolio</a></li>
+			  		<li id="twitter" class="span1">
+			  			<a href="https://twitter.com/a_delbalso"><img id="twitter" src="images/icons/twitter.png" /></a>
+			  		</li>
+			  		<li id="email" class="span1">
+			  			<a href="mailto:a.delbalso@gmail.com"><img id="email" src="images/icons/email.png" /></a>
+			  		</li>
+			  		<li id="nav-blog" class="span1 offset3"><a href="pages/blog.html" id="blog">Blog</a></li>
+			  	</ul>
+			</div>	
+		</div>
 	</div>
 
-	<div class="container box1">
-		<p>These are obvious statements about places.</p>
-		<ul class="img-preview">
-			<li><a href="images/portfolio/CANYON.png" rel="lightbox[roadtrip]"><img src="images/thumbs/canyon_thumb.png" /><p class="caption">canyon</p></a></li>
-			<li><a href="images/portfolio/MOUNTAIN.png" rel="lightbox[roadtrip]"><img src="images/thumbs/mountain_thumb.png" /><p class="caption">mountain</p></a></li>
-			<li><a href="images/portfolio/ROAD1.png" rel="lightbox[roadtrip]"><img src="images/thumbs/road_thumb.png" /><p class="caption">road</p></a></li>
-			<li><a href="images/portfolio/WATER.png" rel="lightbox[roadtrip]"><img src="images/thumbs/water_thumb.png" /><p class="caption">water</p></a></li>
-		</ul>
+	<div class="container">
+		<div class="box1">
+			<p>These are obvious statements about places.</p>
+			<ul class="img-preview">
+				<li><a href="images/portfolio/CANYON.png" rel="lightbox[roadtrip]"><img src="images/thumbs/canyon_thumb.png" /><p class="caption">canyon</p></a></li>
+				<li><a href="images/portfolio/MOUNTAIN.png" rel="lightbox[roadtrip]"><img src="images/thumbs/mountain_thumb.png" /><p class="caption">mountain</p></a></li>
+				<li><a href="images/portfolio/ROAD1.png" rel="lightbox[roadtrip]"><img src="images/thumbs/road_thumb.png" /><p class="caption">road</p></a></li>
+				<li><a href="images/portfolio/WATER.png" rel="lightbox[roadtrip]"><img src="images/thumbs/water_thumb.png" /><p class="caption">water</p></a></li>
+			</ul>
+		</div>
+
+		<div class="box2">
+			<p>Scroll me, would ya?</p>
+		</div>
+
+		<div class="box1">
+			<p>I am container the third.</p>
+		</div>
 	</div>
 
-	<div class="container box2">
-		<p>Scroll me, would ya?</p>
-	</div>
+<script src="http://code.jquery.com/jquery-latest.js"></script>
 
-	<div class="container box1">
-		<p>I am container the third.</p>
-	</div>
 </body>
 
 <footer>
